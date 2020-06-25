@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: honeydew;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid grey;
+    border-radius: 50px;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: coral;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid salmon 3px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/* personal information */
+
+#personal-section{
+
+}
+
+.content{
+margin-bottom: 30px;
+}
+
+.left-div{
+width: 30%;
+float: left;
+}
+
+.right-div{
+width: 70%;
+float: left;
+}
+
+.common-hr{
+    border: 1px rgb(41, 39, 36) solid;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* education section */
+
+.education-left{
+    float: left;
+    width: 45%;
+}
+
+.education-right{
+    float: left;
+    width: 45%;
+}
+
+.footer-section{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    text-
+}
+
+.footer-section a{
+color: black;
+margin: 20px;
+text-decoration: none;
+}
+
+.footer-section p{
+    color: darkblue;
+    margin: 20px;
+}
